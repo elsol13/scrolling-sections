@@ -36,3 +36,9 @@ Author: YasirKareem
     width: 100vw;
     scroll-snap-align: start;
   }
+
+/* FIXME: temporary fix */
+
+  .starting-div {
+      background-color: indianred;
+  }
