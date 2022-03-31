@@ -13,9 +13,7 @@
 }
 
 section {
-    /* the flex configuration comes here */
     display: flex;
-    flex-direction: column;
     /* main axis */
     justify-content: center;
     /* cross axis */
@@ -28,6 +26,12 @@ section {
     border: 2px dashed white;
   }
   
+  .content {
+    padding: 2em;
+    align-items: center;
+    text-align: center;
+  }
+
     h2 {
         color: #fff;
         font-size: 90px;
